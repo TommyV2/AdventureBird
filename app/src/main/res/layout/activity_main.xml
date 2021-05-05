@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutID"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.adventureBird.flappybirdgame.MainActivity"
+    android:screenOrientation="portrait"
+    android:background="@drawable/background_city">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="164dp"
+        android:layout_height="156dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/playbutton"
+        android:src="@drawable/playbtn"
+        android:onClick="startGame"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="SettingsButton"
+        android:src="@drawable/ic_settings_btn"
+        android:onClick="openSettings" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="0dp"
+        android:contentDescription="HighScoreButton"
+        android:onClick="openHighScore"
+        android:src="@drawable/ic_format_list_numbered_black_24dp" />
+
+
+</RelativeLayout>
