@@ -4,7 +4,7 @@
 
 Flappy Bird clone android app
 
-## Technolgies
+## Technologies
 
 -Java
 
